@@ -23,11 +23,7 @@
 		},
 		"default_title": "Coupon Clicker"
 	},
-	"background": {
-		"scripts": [ "js/background.js" ],
-		"persistent": true
-	},
-
+	
 	"permissions": [
 		"*://*.cvs.com/"
 	]
