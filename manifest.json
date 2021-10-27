@@ -3,7 +3,7 @@
 
 	"name": "CVS Coupon Clipper",
 	"description": "Automatically Clip Coupons",
-	"version": "1.0",
+	"version": "1.1",
 	"author": "Vance White",
 
 	"icons": {
@@ -29,7 +29,6 @@
 	},
 
 	"permissions": [
-		"declarativeContent",
 		"*://*.cvs.com/"
 	]
 }
