@@ -1,0 +1,35 @@
+{
+	"manifest_version": 2,
+
+	"name": "CVS Coupon Clipper",
+	"description": "Automatically Clip Coupons",
+	"version": "1.0",
+	"author": "Vance White",
+
+	"icons": {
+		"16": "img/favicon_16.png",
+		"32": "img/favicon_32.png",
+		"64": "img/favicon_64.png",
+		"128": "img/favicon_128.png"
+	},
+
+	"page_action": {
+		"default_popup": "popup.html",
+		"default_icon": {
+			"16": "img/favicon_16.png",
+			"32": "img/favicon_32.png",
+			"64": "img/favicon_64.png",
+			"128": "img/favicon_128.png"
+		},
+		"default_title": "Coupon Clicker"
+	},
+	"background": {
+		"scripts": [ "js/background.js" ],
+		"persistent": true
+	},
+
+	"permissions": [
+		"declarativeContent",
+		"*://*.cvs.com/"
+	]
+}
