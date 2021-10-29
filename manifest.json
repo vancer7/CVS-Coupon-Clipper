@@ -12,7 +12,10 @@
 		"64": "img/favicon_64.png",
 		"128": "img/favicon_128.png"
 	},
-
+	"background": {
+		"scripts": [ "js/background.js" ],
+		"persistent": true
+	},
 	"page_action": {
 		"default_popup": "popup.html",
 		"default_icon": {
@@ -23,8 +26,8 @@
 		},
 		"default_title": "Coupon Clicker"
 	},
-	
 	"permissions": [
+		"declarativeContent",
 		"*://*.cvs.com/"
 	]
 }
